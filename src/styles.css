@@ -1,0 +1,41 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import "materialize-css/dist/css/materialize.min.css";
+@import '../node_modules/ng2-dnd/bundles/style.css';
+
+input:not([type]), input[type=text], input[type=password], 
+input[type=email], input[type=url], input[type=time], input[type=date], input[type=datetime], input[type=datetime-local], input[type=tel], input[type=number], input[type=search], textarea.materialize-textarea {
+      background-color: white;
+      border: initial;
+      border-bottom: initial;
+      border-radius: initial;
+      outline: initial;
+      height: initial;
+      width: initial;
+      font-size: initial;
+      margin: initial !important;
+      padding: initial;
+      box-shadow: initial;
+      box-sizing: initial;
+      transition: initial;
+    }
+
+    nav {
+      color: initial;
+      background-color: initial;
+      width: initial;
+      box-shadow: initial;
+    }
+
+    nav ul a:hover {
+      background: initial;
+      background-color: initial;
+    }
+    
+    .mat-input-underline {
+        display: none !important;
+    }
+    
+    .mat-input-infix {
+        padding-bottom: 0;
+    }
